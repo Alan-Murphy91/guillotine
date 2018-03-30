@@ -125,6 +125,7 @@ html, body {
     line-height: 50px;
     border-radius: 15px;
     border: 2px solid #0E69C2;
+    margin-top: 15px;
 }
 
 .pageTwo {
@@ -510,7 +511,7 @@ a {
     
     .intro .heading {
         background: #0E6AC1;
-        width: 200px;
+        width: 220px;
         padding: 5px 5px 5px 5px;
         text-align: center;
         font-size: 40px;
@@ -640,7 +641,7 @@ a {
 
 @media only screen and (max-width: 676px) {
     #picc {
-        height: 60vh;
+        height: 40vh;
         width: 78.6vw;
     }
 }
