@@ -460,7 +460,7 @@ a {
     
     .ctap {
         height: 50px;
-        width: 35vw;
+        width: 50vw;
         line-height: 50px;
         border-radius: 15px;
         border: 2px solid #0E69C2;
@@ -473,7 +473,7 @@ a {
     }
     
     .heroOne {
-        margin-top: 50px;
+        margin-top: 10px;
         color: white;
         display: -ms-grid;
         display: grid;
@@ -486,13 +486,14 @@ a {
             align-self: center;
         text-shadow: rgba(0,0,0,0.5);
     }
+
     
     .pageTwoContainer {
         min-width: 100vw;
         display: -ms-grid;
         display: grid;
-        -ms-grid-rows: 500px 1500px;
-            grid-template-rows: 500px 1500px;
+        -ms-grid-rows: 500px 1700px;
+            grid-template-rows: 500px 1700px;
     }
     
     .about {
@@ -528,8 +529,8 @@ a {
     .services {
         display: -ms-grid;
         display: grid;
-        -ms-grid-rows: 500px 500px 500px;
-            grid-template-rows: 500px 500px 500px;
+        -ms-grid-rows: 550px 550px 550px;
+            grid-template-rows: 550px 550px 550px;
         -ms-grid-columns: none;
             grid-template-columns: none;
         text-align: center;
@@ -623,5 +624,23 @@ a {
         color: #0E6AC1;
         font-weight: bolder;
         text-decoration: none;
+    }
+}
+
+
+@media only screen and (max-width: 490px) {
+    #noText {
+        display: none;
+    }
+
+    #bigBt {
+        width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    #picc {
+        height: 60vh;
+        width: 78.6vw;
     }
 }
