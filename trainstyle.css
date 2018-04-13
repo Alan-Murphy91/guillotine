@@ -278,7 +278,7 @@ heroContainerOnet {
 
 
 .tabst h5 {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     margin-left: 5px;
     margin-right: 5px;
@@ -601,6 +601,40 @@ a:active {
         -o-transition: color 0.5s ease;
         transition: color 0.5s ease;
     }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: white;
+        text-align: center;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: white;
+        text-align: center;
+        background-color: #C3C3C3;
+    }
+
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        font-size: 14px;
+        text-align: left;
+        list-style: none;
+        background-color: #EEEEEE;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        border: 1px solid #ccc;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 4px;
+        -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+        box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    }
     
     .navbar .navbar-nav {
         display: inline-block;
@@ -711,7 +745,7 @@ a:active {
     
     .pagetwot {
         display: grid;
-        grid-template-rows: 1500px 600px;
+        grid-template-rows: 1600px 600px;
     }
     
     .products {
@@ -722,7 +756,7 @@ a:active {
     
     .tabst {
         display: grid;
-        grid-template-rows: 430px 430px 430px;
+        grid-template-rows: 450px 450px 450px;
         text-align: center;
     }
     
@@ -741,7 +775,7 @@ a:active {
         width: 260px;
         margin-left: 8px;
         margin-right: 8px;
-        height: 375px;
+        height: 415px;
     }
     
     .one2onet ul {
@@ -767,7 +801,7 @@ a:active {
         width: 260px;
         margin-left: 8px;
         margin-right: 8px;
-        height: 375px;
+        height: 425px;
     }
 
     .semiprivatet ul {
@@ -798,7 +832,7 @@ a:active {
         width: 260px;
         margin-left: 8px;
         margin-right: 8px;
-        height: 395px;
+        height: 435px;
     }
 
     .ultimatet ul {
@@ -853,7 +887,7 @@ a:active {
     }  
 
     .tabst h5 {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         margin-left: 5px;
         margin-right: 5px;
