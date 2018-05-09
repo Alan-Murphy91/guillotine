@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo');
 
+@media only screen and (max-height: 818px) {
+    #noText {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 1100px) {
 
 * {
@@ -78,7 +84,8 @@ html, body {
     min-height: 100vh;
     display: -ms-grid;
     display: grid;
-    grid-template-rows: 40vh 60vh;
+    -ms-grid-rows: 40vh 60vh;
+        grid-template-rows: 40vh 60vh;
 }
 
 a:focus, a:hover {
@@ -89,9 +96,13 @@ a:focus, a:hover {
 .imgt {
     background: url('img/grptr.jpg') 100% 100%;
     background-size: cover;
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 15vw 50vw 35vw;
-    align-items: center;
+    -ms-grid-columns: 15vw 50vw 35vw;
+        grid-template-columns: 15vw 50vw 35vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 40px;
 }
 
@@ -102,8 +113,10 @@ a:focus, a:hover {
 }
 
 .contentt {
+    display: -ms-grid;
     display: grid;
-    grid-template-rows: 10vh 22vh 28vh;
+    -ms-grid-rows: 10vh 22vh 28vh;
+        grid-template-rows: 10vh 22vh 28vh;
     text-align: center;
     background: #EEEEEE;
 }
@@ -127,8 +140,10 @@ hr {
 }
 
 .icont {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
+    -ms-grid-columns: 33vw 33vw 33vw;
+        grid-template-columns: 33vw 33vw 33vw;
 }
 
 .heroContainerTwo {
@@ -145,30 +160,39 @@ heroContainerOnet {
 }
 
 .pagetwot {
+    display: -ms-grid;
     display: grid;
-    grid-template-rows: 660px 300px;
+    -ms-grid-rows: 660px 300px;
+        grid-template-rows: 660px 300px;
 }
 
 .products {
+    display: -ms-grid;
     display: grid;
-    grid-template-rows: 200px 460px;
+    -ms-grid-rows: 200px 460px;
+        grid-template-rows: 200px 460px;
     text-align: center;
 }
 
 .tabst {
+    display: -ms-grid;
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
+    -ms-grid-columns: 25vw 25vw 25vw 25vw;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
     text-align: center;
 }
 
 .footert {
+    display: -ms-grid;
     display: grid;
-    grid-template-rows: 150px 150px;
+    -ms-grid-rows: 150px 150px;
+        grid-template-rows: 150px 150px;
     text-align: center;
 }
 
 .one2one {
-    justify-self: end;
+    -ms-grid-column-align: end;
+        justify-self: end;
 }
 .one2onet {
     border: 1px solid #0E6AC1;
@@ -192,7 +216,8 @@ heroContainerOnet {
 }
 
 .semiprivate {
-    justify-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
 }
 .semiprivatet {
     border: 1px solid #0E6AC1;
@@ -217,7 +242,8 @@ heroContainerOnet {
 
 
 .ultimate {
-    justify-self: start;
+    -ms-grid-column-align: start;
+        justify-self: start;
 }
 
 .ultimatet {
@@ -294,12 +320,16 @@ ul {
 
 
 .containerg {
-    height: 7400px; 
+    height: 11000px; 
     width: 100vw;
+    display: -ms-grid;
     display: grid;
-    grid-template-rows: 1200px 1200px 1200px 1200px 1200px 1200px;
+    -ms-grid-rows: 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px;
+        grid-template-rows: 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px 1200px;
     justify-items: center;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 
@@ -704,7 +734,6 @@ a:active {
         text-align: left;
         list-style: none;
         background-color: #EEEEEE;
-        -webkit-background-clip: padding-box;
         background-clip: padding-box;
         border: 1px solid #ccc;
         border-radius: 4px;
@@ -758,7 +787,8 @@ a:active {
         /* min-height: 100vh; */
         display: -ms-grid;
         display: grid;
-        grid-template-rows: 300px 500px
+        -ms-grid-rows: 300px 500px;
+            grid-template-rows: 300px 500px
     }
     
     /* a:focus, a:hover {
@@ -769,9 +799,13 @@ a:active {
     .imgt {
         background: url('img/grptr.jpg') 100% 100%;
         background-size: cover;
+        display: -ms-grid;
         display: grid;
-        grid-template-columns: 15vw 50vw 35vw;
-        align-items: center;
+        -ms-grid-columns: 15vw 50vw 35vw;
+            grid-template-columns: 15vw 50vw 35vw;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         font-size: 40px;
     }
     
@@ -782,8 +816,10 @@ a:active {
     }
     
     .contentt {
+        display: -ms-grid;
         display: grid;
-        grid-template-rows: 10vh 22vh 28vh;
+        -ms-grid-rows: 10vh 22vh 28vh;
+            grid-template-rows: 10vh 22vh 28vh;
         text-align: center;
         background: #EEEEEE;
     }
@@ -810,8 +846,10 @@ a:active {
     }
     
     .icont {
+        display: -ms-grid;
         display: grid;
-        grid-template-columns: 33vw 33vw 33vw;
+        -ms-grid-columns: 33vw 33vw 33vw;
+            grid-template-columns: 33vw 33vw 33vw;
     }
     
     .last {
@@ -897,30 +935,39 @@ a:active {
     }
     
     .pagetwot {
+        display: -ms-grid;
         display: grid;
-        grid-template-rows: 2200px 600px;
+        -ms-grid-rows: 2200px 600px;
+            grid-template-rows: 2200px 600px;
     }
     
     .products {
+        display: -ms-grid;
         display: grid;
-        grid-template-rows: 200px 460px;
+        -ms-grid-rows: 200px 460px;
+            grid-template-rows: 200px 460px;
         text-align: center;
     }
     
     .tabst {
+        display: -ms-grid;
         display: grid;
-        grid-template-rows: 450px 450px 450px 450px;
+        -ms-grid-rows: 450px 450px 450px 450px;
+            grid-template-rows: 450px 450px 450px 450px;
         text-align: center;
     }
     
     .footert {
+        display: -ms-grid;
         display: grid;
-        grid-template-rows: 450px 150px;
+        -ms-grid-rows: 450px 150px;
+            grid-template-rows: 450px 150px;
         text-align: center;
     }
     
     .one2one {
-        justify-self: center;
+        -ms-grid-column-align: center;
+            justify-self: center;
     }
     .one2onet {
         border: 1px solid #0E6AC1;
@@ -946,7 +993,8 @@ a:active {
     }
     
     .semiprivate {
-        justify-self: center;
+        -ms-grid-column-align: center;
+            justify-self: center;
     }
     .semiprivatet {
         border: 1px solid #0E6AC1;
@@ -976,7 +1024,8 @@ a:active {
     }
 
     .ultimate {
-        justify-self: center;
+        -ms-grid-column-align: center;
+            justify-self: center;
     }
     
     .ultimatet {
@@ -1004,6 +1053,7 @@ a:active {
     
     .onpurch {
         background: #EEEEEE;
+        display: -ms-grid;
         display: grid;
         justify-items: center;
     }

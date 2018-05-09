@@ -462,8 +462,8 @@ a {
     .ctap {
         height: 50px;
         width: 50vw;
+        border-radius: 0px;
         line-height: 50px;
-        border-radius: 15px;
         border: 2px solid #0E69C2;
     }
     
@@ -642,7 +642,6 @@ a {
         list-style: none;
         background-color: black;
         color: white;
-        -webkit-background-clip: padding-box;
         background-clip: padding-box;
         border: 1px solid #ccc;
         border: 1px solid rgba(0,0,0,.15);

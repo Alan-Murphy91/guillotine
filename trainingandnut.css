@@ -6,7 +6,8 @@
     }
 }
 
-@media only screen and (min-width: 1100px) {
+
+@media only screen and (min-width: 1000px) {
 
 * {
     font-family: 'Heebo';
@@ -94,7 +95,7 @@ a:focus, a:hover {
 }
 
 .imgt {
-    background: url('img/grptr.jpg') 100% 100%;
+    background: url('img/trainstylepic.jpeg') 100% 100%;
     background-size: cover;
     display: -ms-grid;
     display: grid;
@@ -177,8 +178,8 @@ heroContainerOnet {
 .tabst {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 25vw 25vw 25vw 25vw;
-        grid-template-columns: 25vw 25vw 25vw 25vw;
+    -ms-grid-columns: 33vw 33vw 33vw;
+        grid-template-columns: 33vw 33vw 33vw;
     text-align: center;
 }
 
@@ -197,7 +198,7 @@ heroContainerOnet {
 .one2onet {
     border: 1px solid #0E6AC1;
     border-radius: 10px;
-    width: 22vw;
+    width: 25vw;
     height: 400px;
 }
 
@@ -222,7 +223,7 @@ heroContainerOnet {
 .semiprivatet {
     border: 1px solid #0E6AC1;
     border-radius: 10px;
-    width: 22vw;
+    width: 25vw;
     height: 400px;
 }
 
@@ -249,7 +250,7 @@ heroContainerOnet {
 .ultimatet {
     border: 1px solid #0E6AC1;
     border-radius: 10px;
-    width: 22vw;
+    width: 25vw;
     height: 400px;
 }
 
@@ -304,7 +305,7 @@ heroContainerOnet {
 
 
 .tabst h5 {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
     margin-left: 5px;
     margin-right: 5px;
@@ -528,13 +529,13 @@ a:active {
 
 
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1000px) {
 #mobile {
     display: none;
 }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1000px) {
     * {
         /* border: 1px solid black; */
     }
@@ -655,6 +656,7 @@ a:active {
         background-color: #EEEEEE;
         background-clip: padding-box;
         border: 1px solid #ccc;
+        border: 1px solid rgba(0,0,0,.15);
         border-radius: 4px;
         -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
         box-shadow: 0 6px 12px rgba(0,0,0,.175);
@@ -716,7 +718,7 @@ a:active {
     } */
     
     .imgt {
-        background: url('img/grptr.jpg') 100% 100%;
+        background: url('img/trainstylepic.jpeg') 100% 100%;
         background-size: cover;
         display: -ms-grid;
         display: grid;
@@ -779,8 +781,8 @@ a:active {
     .pagetwot {
         display: -ms-grid;
         display: grid;
-        -ms-grid-rows: 2200px 600px;
-            grid-template-rows: 2200px 600px;
+        -ms-grid-rows: 1600px 600px;
+            grid-template-rows: 1600px 600px;
     }
     
     .products {
@@ -794,8 +796,8 @@ a:active {
     .tabst {
         display: -ms-grid;
         display: grid;
-        -ms-grid-rows: 450px 450px 450px 450px;
-            grid-template-rows: 450px 450px 450px 450px;
+        -ms-grid-rows: 450px 450px 450px;
+            grid-template-rows: 450px 450px 450px;
         text-align: center;
     }
     
@@ -932,7 +934,7 @@ a:active {
     }  
 
     .tabst h5 {
-        font-size: 12px;
+        font-size: 13px;
         font-weight: bold;
         margin-left: 5px;
         margin-right: 5px;
